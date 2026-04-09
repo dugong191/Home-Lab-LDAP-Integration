@@ -1,0 +1,19 @@
+# Create the Interns Group
+dn: cn=interns,ou=Groups,dc=example,dc=com
+objectClass: posixGroup
+cn: interns
+gidNumber: 10002
+
+# Create the Intern1 User
+dn: uid=intern1,ou=People,dc=example,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: intern1
+sn: Intern
+cn: Intern One
+uidNumber: 10002
+gidNumber: 10002
+homeDirectory: /home/intern1
+loginShell: /bin/bash
+userPassword: password123
