@@ -1,0 +1,27 @@
+# extended LDIF
+#
+# LDAPv3
+# base <dc=example,dc=com> with scope subtree
+# filter: (uid=user1)
+# requesting: ALL
+#
+
+# user1, People, example.com
+dn: uid=user1,ou=People,dc=example,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: user1
+sn: user1
+uid: user1
+uidNumber: 10001
+gidNumber: 10001
+homeDirectory: /home/user1
+loginShell: /bin/bash
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 2
+# numEntries: 1
