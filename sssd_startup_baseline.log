@@ -1,0 +1,20 @@
+Apr 09 07:21:40 Ubuntu-Server-24 sssd_be[201013]: LDAP authentication being performed over insecure connection. This should be done for debugging purposes only.
+Apr 09 07:21:40 Ubuntu-Server-24 sssd_be[201013]: No encryption detected on LDAP connection.
+Apr 09 07:25:05 Ubuntu-Server-24 sssd_be[201013]: LDAP authentication being performed over insecure connection. This should be done for debugging purposes only.
+Apr 09 07:25:05 Ubuntu-Server-24 sssd_be[201013]: No encryption detected on LDAP connection.
+Apr 09 07:29:10 Ubuntu-Server-24 sssd_sudo[201016]: Shutting down (status = 0)
+Apr 09 07:29:10 Ubuntu-Server-24 systemd[1]: Stopping sssd.service - System Security Services Daemon...
+Apr 09 07:29:10 Ubuntu-Server-24 sssd_pam[201015]: Shutting down (status = 0)
+Apr 09 07:29:10 Ubuntu-Server-24 sssd_be[201013]: Shutting down (status = 0)
+Apr 09 07:29:10 Ubuntu-Server-24 sssd_nss[201014]: Shutting down (status = 0)
+Apr 09 07:29:10 Ubuntu-Server-24 systemd[1]: sssd.service: Deactivated successfully.
+Apr 09 07:29:10 Ubuntu-Server-24 systemd[1]: Stopped sssd.service - System Security Services Daemon.
+Apr 09 07:29:10 Ubuntu-Server-24 systemd[1]: Starting sssd.service - System Security Services Daemon...
+Apr 09 07:29:10 Ubuntu-Server-24 sssd[217384]: Starting up
+Apr 09 07:29:10 Ubuntu-Server-24 sssd_be[217386]: Starting up
+Apr 09 07:29:10 Ubuntu-Server-24 sssd_nss[217387]: Starting up
+Apr 09 07:29:10 Ubuntu-Server-24 sssd_sudo[217389]: Starting up
+Apr 09 07:29:10 Ubuntu-Server-24 sssd_pam[217388]: Starting up
+Apr 09 07:29:10 Ubuntu-Server-24 systemd[1]: Started sssd.service - System Security Services Daemon.
+Apr 09 07:29:29 Ubuntu-Server-24 sssd_be[217386]: LDAP authentication being performed over insecure connection. This should be done for debugging purposes only.
+Apr 09 07:29:29 Ubuntu-Server-24 sssd_be[217386]: No encryption detected on LDAP connection.
